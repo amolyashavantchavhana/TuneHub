@@ -1,0 +1,21 @@
+body
+{
+	background-color:pink;
+	text-align: center;
+     margin: auto;
+     width: 50%;
+     border:none;
+     padding: 10px;
+  
+}
+a 
+{
+position:relatvive;
+text-transform:uppercase;
+font-size:1.5cm;
+font-weight:400;
+padding:10px 30px;
+border-style:none;
+	
+}
+

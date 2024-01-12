@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/style4.css}">
+</head>
+<body>
+
+
+<h1>Welcome To Tune Hub Registration Page</h1>
+
+<form action="register" method="post">
+
+<label>username</label>
+<input type="text" name="username">
+<br>
+<label>email</label>
+<input type="text" name="email">
+<br>
+<label>password</label>
+<input type="text" name="password">
+<br>
+<label>address</label>
+<textarea name="address"></textarea>
+<br>
+<label>gender</label>
+Male<input type="radio" name="gender" value="Male">
+Female<input type="radio" name="gender" value="Female">
+Others<input type="radio" name="gender" value="Others">
+<br>
+
+<label>role</label>
+Admin<input type="radio" name="role" value="Admin">
+Customer<input type="radio" name="role" value="Customer">
+<br>
+<input type="submit" value="Register">
+
+
+</form>
+
+</body>
+</html>
